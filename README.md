@@ -31,7 +31,7 @@ and tweak to set up for your needs.
 | ha_auth_token | The authentication token generated within Home Assistant |  true       |
 | ha_base_url | The URL to home assistant URL `<IP_ADDR>:8123/api` | ""            | true |
 | zabbi_api_key | The API key to send API requests to Zabbix | ""            | true |
-| zabbix_url | The URL to the Zabbix API `<IP ADDR>/zabbix/api_jsonrpc.php` | "" true "     
+| zabbix_url | The URL to the Zabbix API `<IP ADDR>/zabbix/api_jsonrpc.php` |  true      
 | alert_active_hours_only | Only flash the lights during awake hours (i.e. don't flash at early morning etc | true          | false
 | alert_start_active_hours | The start time the lights should be able to flash | "09:00" | false |
 | alert_end_active_hours | The end time of when the lights should stop being flashed | "23:00" | false |
