@@ -28,7 +28,7 @@ and tweak to set up for your needs.
 | cf_client_id | The cloudflare zero trust client id | ""            | true  | 
 | cf_client_secret | The cloudflare zero trust secret | ""            | true |
 | cycle_time | How long to wait between each API request to Zabbix | 60            | false |
-| ha_auth_token | The authentication token generated within Home Assistant | "" true       |
+| ha_auth_token | The authentication token generated within Home Assistant |  true       |
 | ha_base_url | The URL to home assistant URL `<IP_ADDR>:8123/api` | ""            | true |
 | zabbi_api_key | The API key to send API requests to Zabbix | ""            | true |
 | zabbix_url | The URL to the Zabbix API `<IP ADDR>/zabbix/api_jsonrpc.php` | "" true "     
